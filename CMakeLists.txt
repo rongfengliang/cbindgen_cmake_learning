@@ -6,4 +6,4 @@ add_executable(myapp main.c)
 
 include_directories(${CMAKE_SOURCE_DIR})
 
-target_link_libraries(myapp PRIVATE ${CMAKE_SOURCE_DIR}/target/release/libmylib.dylib)
+target_link_libraries(myapp PRIVATE ${CMAKE_SOURCE_DIR}/target/release/libmylib.a)

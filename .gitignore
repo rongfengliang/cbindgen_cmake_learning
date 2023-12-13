@@ -2,3 +2,4 @@
 build
 bindings.h
 .vscode
+venv
