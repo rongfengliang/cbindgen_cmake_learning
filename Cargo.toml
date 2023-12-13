@@ -8,6 +8,7 @@ name = "mylib"
 crate-type = ["cdylib","staticlib"]
 
 [dependencies]
+libc = "0.2.151"
 
 [build-dependencies]
 cbindgen = "0.24.0"
